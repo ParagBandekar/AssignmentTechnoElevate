@@ -1,0 +1,11 @@
+Network Protocol Driver in JDBC
+The Network Protocol driver uses middle-ware (application server) that converts JDBC calls directly or indirectly into the vendor-specific database protocol. It is fully written in java..
+
+Advantage of Network Protocol driver
+No client side library is required because of application server that can perform many tasks like auditing, load balancing, logging etc.
+This driver is both database and platform independent driver
+
+Disadvantage of Network Protocol driver
+Network support is required on client machine.
+Requires database-specific coding to be done in the middle tier.
+Maintenance of Network Protocol driver becomes costly because it requires database-specific coding to be done in the middle tier.
